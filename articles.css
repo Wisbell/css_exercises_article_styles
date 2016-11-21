@@ -6,25 +6,35 @@
 .article1 {
 	background-color: #B6BDBD;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	font-size: 20px;
+	color: black;
+	line-height: 50%;
 }
 
 .article2 {
 	background-color: #598888;
 	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 15px;
+	color: brown;
 }
 
 .article3 {
 	background-color: #014444;
 	font-family:  Courier, "Lucida Console", monospace;
+	font-size: 25px;
+	color: goldenrod;
 }
-
 .article4 {
 	background-color: #D9E091;
 	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 2em;
+	color: purple;
 }
 
 .article5 {
 	background-color: #6F7002;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 1em;
+	color: white;
 }
 
