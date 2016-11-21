@@ -1,6 +1,57 @@
+/* Main selectors */
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+/* Navigation */
+
+nav {
+	width: 100%;
+	padding-left: 100px;
+	background-color: black;
+}
+
+.blog_name {
+	display: inline;
+}
+
+.nav-list {
+	display: inline;
+	list-style-type: none;
+}
+
+.nav-list {
+	
+}
+
+li > a { /*All children of list items who are anchor elements*/
+	padding-left: 100px;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #718EA4;
+}
+
+.nav-list-item {
+	display: inline;
+}
+
+
+
 /* Articles */
 .article_holder {
-
+	background-color: black;
 }
 
 .article1 {
@@ -8,7 +59,10 @@
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
 	font-size: 20px;
 	color: black;
-	line-height: 50%;
+	line-height: 90%;
+	padding: 5px 6px 7px 8px; /*padding: top right bottom left - like a clock*/
+	border: 1px solid black;
+	border-radius: 10px;
 }
 
 .article2 {
@@ -16,6 +70,10 @@
 	font-family: "Arial", Helvetica, sans-serif;
 	font-size: 15px;
 	color: brown;
+	line-height: 30px;
+	padding: 8px 7px 6px 5px; /*padding: top right bottom left - like a clock*/
+	border: 1px solid black;
+	border-radius: 40px;
 }
 
 .article3 {
@@ -23,12 +81,20 @@
 	font-family:  Courier, "Lucida Console", monospace;
 	font-size: 25px;
 	color: goldenrod;
+	line-height: 80%;
+	padding: 10px 100px 10px 100px; /*padding: top right bottom left - like a clock*/
+	border: 1px solid black;
+	border-radius: 10000px;
 }
 .article4 {
 	background-color: #D9E091;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 2em;
 	color: purple;
+	line-height: 25px;
+	padding: 100px 10px 100px 10px; /*padding: top right bottom left - like a clock*/
+	border: 1px solid black;
+	border-radius: 100000000000px;
 }
 
 .article5 {
@@ -36,5 +102,9 @@
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 1em;
 	color: white;
+	line-height: 120%;
+	padding: 200px 200px 200px 200px; /*padding: top right bottom left - like a clock*/
+	border: 1px solid black;
+	border-radius: 100%;
 }
 
