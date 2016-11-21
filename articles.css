@@ -1,3 +1,37 @@
+/* Articles */
+.article_holder {
+
+}
+
+.article1 {
+	background-color: #B6BDBD;
+}
+
+.article2 {
+	background-color: #598888;
+}
+
+.article3 {
+	background-color: #014444;
+}
+
+.article4 {
+	background-color: #D9E091;
+}
+
+.article5 {
+	background-color: #6F7002;
+}
+
+
+
+
+
+
+
+
+
+/*
 body {
 	background-color: #042037;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8,19 +42,7 @@ body {
 
 	padding-top: 100px;
 }
-/*
-#space_taker {
-	background-color: #042037;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	color: white;
-	padding-bottom: 10px;
-	visibility: hidden;
-	margin: 0;
-}
-*/
+
 nav {
 	background-color: #042037;
 	width: 100%;
@@ -88,3 +110,5 @@ ul#nav li {
 #article5 {
 	background-color: #718EA4;
 }
+
+*/
